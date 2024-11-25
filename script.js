@@ -33,3 +33,7 @@ function applyPreferences() {
   document.getElementById('preferences-form').addEventListener('submit', function (event) {
     event.preventDefault();
   
+    const userName = document.getElementById('name').value;
+    const backgroundColor = document.getElementById('background-color').value;
+    const foregroundColor = document.getElementById('foreground-color').value;
+  
