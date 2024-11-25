@@ -15,3 +15,10 @@ function applyPreferences() {
     const backgroundColor = localStorage.getItem('backgroundColor');
     const foregroundColor = localStorage.getItem('foregroundColor');
   
+    const greetingElement = document.getElementById('greeting');
+    if (userName) {
+      greetingElement.textContent = `Welcome back, ${userName}!`;
+    } else {
+      greetingElement.textContent = '';
+    }
+  
