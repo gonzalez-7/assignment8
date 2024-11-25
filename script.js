@@ -37,3 +37,9 @@ function applyPreferences() {
     const backgroundColor = document.getElementById('background-color').value;
     const foregroundColor = document.getElementById('foreground-color').value;
   
+    // Store the values in localStorage
+    localStorage.setItem('userName', userName);
+    localStorage.setItem('backgroundColor', backgroundColor);
+    localStorage.setItem('foregroundColor', foregroundColor);
+  
+ 
