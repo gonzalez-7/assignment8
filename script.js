@@ -22,3 +22,11 @@ function applyPreferences() {
       greetingElement.textContent = '';
     }
   
+    if (backgroundColor) {
+      document.body.style.backgroundColor = backgroundColor;
+    }
+    if (foregroundColor) {
+      document.body.style.color = foregroundColor;
+    }
+  }
+  
