@@ -42,4 +42,6 @@ function applyPreferences() {
     localStorage.setItem('backgroundColor', backgroundColor);
     localStorage.setItem('foregroundColor', foregroundColor);
   
+    alert('Your preferences have been saved!');
+  
  
