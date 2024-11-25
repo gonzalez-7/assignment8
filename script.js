@@ -30,3 +30,6 @@ function applyPreferences() {
     }
   }
   
+  document.getElementById('preferences-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+  
