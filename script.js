@@ -44,4 +44,7 @@ function applyPreferences() {
   
     alert('Your preferences have been saved!');
   
- 
+    applyPreferences();
+  });
+  
+  document.addEventListener('DOMContentLoaded', applyPreferences);  
